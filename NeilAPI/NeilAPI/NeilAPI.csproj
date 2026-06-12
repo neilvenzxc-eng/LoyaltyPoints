@@ -13,13 +13,13 @@
 
   <ItemGroup>
     <Reference Include="UbaldoAppService">
-      <HintPath>..\..\..\..\Documents\GitHub\Ubaldo_Act2Continue\LoyaltyService\bin\Debug\net8.0\UbaldoAppService.dll</HintPath>
+      <HintPath>..\..\LoyaltyService\bin\Debug\net8.0\UbaldoAppService.dll</HintPath>
     </Reference>
     <Reference Include="UbaldoDataService">
-      <HintPath>..\..\..\..\Documents\GitHub\Ubaldo_Act2Continue\LoyaltyService\bin\Debug\net8.0\UbaldoDataService.dll</HintPath>
+      <HintPath>..\..\LoyaltyService\bin\Debug\net8.0\UbaldoDataService.dll</HintPath>
     </Reference>
     <Reference Include="UbaldoModels">
-      <HintPath>..\..\..\..\Documents\GitHub\Ubaldo_Act2Continue\LoyaltyService\bin\Debug\net8.0\UbaldoModels.dll</HintPath>
+      <HintPath>..\..\LoyaltyService\bin\Debug\net8.0\UbaldoModels.dll</HintPath>
     </Reference>
   </ItemGroup>
 
