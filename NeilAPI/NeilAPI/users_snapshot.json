@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 11,
+    "Username": "zel123",
+    "Password": "zel123",
+    "Points": 0
+  },
+  {
+    "Id": 12,
+    "Username": "neil",
+    "Password": "neil12",
+    "Points": 0
+  },
+  {
+    "Id": 13,
+    "Username": "NeilUser",
+    "Password": "Password123",
+    "Points": 25
+  },
+  {
+    "Id": 14,
+    "Username": "danica",
+    "Password": "danica",
+    "Points": 0
+  },
+  {
+    "Id": 16,
+    "Username": "danica123",
+    "Password": "danicamylove",
+    "Points": 0
+  }
+]

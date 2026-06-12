@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.6.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="UbaldoAppService">
+      <HintPath>..\..\..\..\Documents\GitHub\Ubaldo_Act2Continue\LoyaltyService\bin\Debug\net8.0\UbaldoAppService.dll</HintPath>
+    </Reference>
+    <Reference Include="UbaldoDataService">
+      <HintPath>..\..\..\..\Documents\GitHub\Ubaldo_Act2Continue\LoyaltyService\bin\Debug\net8.0\UbaldoDataService.dll</HintPath>
+    </Reference>
+    <Reference Include="UbaldoModels">
+      <HintPath>..\..\..\..\Documents\GitHub\Ubaldo_Act2Continue\LoyaltyService\bin\Debug\net8.0\UbaldoModels.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
