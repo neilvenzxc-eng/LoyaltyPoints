@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.2.1
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Mar 27, 2026 at 03:44 PM
+- Server version: 10.4.32-MariaDB
+- PHP Version: 8.2.12
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="ubaldo_db" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="users">
+                CREATE TABLE `users` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `username` varchar(50) NOT NULL,
+                  `password` varchar(50) NOT NULL,
+                  `points` int(11) DEFAULT 0,
+                  PRIMARY KEY (`id`),
+                  UNIQUE KEY `username` (`username`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'ubaldo_db'
+    -->
+    <database name="ubaldo_db">
+        <!-- Table users -->
+        <table name="users">
+            <column name="id">11</column>
+            <column name="username">zel123</column>
+            <column name="password">zel123</column>
+            <column name="points">0</column>
+        </table>
+    </database>
+</pma_xml_export>
